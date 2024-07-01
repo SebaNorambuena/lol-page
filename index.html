@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Tienda de Autos Electricos</title>
+</head>
+<body>
+    <div class="grid poppins-regular">
+
+        <!-- NAVBAR  -->
+        <nav class="navbar text-white">
+
+            <!-- NAVBAR PANTALLAS LAPTOP -->
+            <div class="lg">
+                <div class="flex column j-center i-center gap-2 m-large">
+                    <div class="flex gap-1">
+                        <i class="fa-solid fa-car"></i>
+                        <p class="poppins-bold">Electric Cars</p>
+                    </div>
+                    <div class="flex column text-center gap-05">
+                        <a class="text-white" href="#">Inicio</a>
+                        <a class="text-white" href="#">Catalogo</a>
+                        <a class="text-white" href="#">Ofertas</a>
+                        <a class="text-white" href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- NAVBAR PANTALLAS TABLETAS -->
+            <div class="medium">
+                <div class="flex j-between i-center gap-1 m-footer">
+                    <div class="flex gap-1">
+                        <i class="fa-solid fa-car"></i>
+                        <p class="poppins-bold">Electric Cars</p>
+                    </div>
+                    <div class="flex text-center gap-1">
+                        <a class="text-white" href="#">Inicio</a>
+                        <a class="text-white" href="#">Catalogo</a>
+                        <a class="text-white" href="#">Ofertas</a>
+                        <a class="text-white" href="#">Contacto</a>
+                    </div>
+                </div>
+            </div>
+            <!-- NAVBAR PANTALLAS CELULAR -->
+            <div class="small">
+                <div class="flex j-between i-center m-footer">
+                    <div class="flex gap-1">
+                        <i class="fa-solid fa-car"></i>
+                        <p class="poppins-bold">Electric Cars</p>
+                    </div>
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <main class="main">
+            <div class="container">
+                <div class="flex column">
+
+                    <div class="flex column j-center i-center text-center m-footer">
+                        <label>Ordenar por:</label>
+                        <select name="Filtros" id="lang">
+                            <option value="Precio">Precio</option>
+                            <option value="Color">Color</option>
+                            <option value="Modelo">Modelo</option>
+                        </select>
+                    </div>
+
+                    <div class="flex j-center i-center wrap">
+                        <div class="card flex column">
+                            <img class="reverse" src="./assets/img/back-lol.png" alt="">
+                            <img class="front" src="./assets/img/ashe.jpg" alt="">
+                            <br>
+                            <p class="poppins-bold">Model: City Car</p>
+                            <button>Ver más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TABLET -->
+            <div class="container-tablet">
+                <div class="flex">
+
+                    <div class="flex column text-center m-footer w-20">
+                        <label>Ordenar por:</label>
+                        <select name="Filtros" id="lang">
+                            <option value="Precio">Precio</option>
+                            <option value="Color">Color</option>
+                            <option value="Modelo">Modelo</option>
+                        </select>
+                    </div>
+                    <div class="flex column w-80">
+                        <div class="flex j-center i-center wrap">
+                            <div class="card flex column">
+                                <img src="./assets/img/auto1.jpg" alt="">
+                                <br>
+                                <p class="poppins-bold">Model: City Car</p>
+                                <button>Ver más</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+
+        <footer class="footer text-white">
+            <div class="flex j-center i-center column text-center m-footer2 gap-05">
+                <div class="flex gap-1">
+                    <a class="text-white" href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a class="text-white" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ffa5565747.js" crossorigin="anonymous"></script>
+</body>
+</html>
